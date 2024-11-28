@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Cards</title>
+    <!-- Some examples and code snippets used in this page are sourced from the official Bootstrap Cards Documentation. -->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom Styles -->
+    <link href="css/CustomStyles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="p-3 custom-header fixed-top">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-white">Home</a></li>
+                    <li><a href="#description" class="nav-link px-2 text-white">Description</a></li>
+                    <li><a href="#code" class="nav-link px-2 text-white">Code</a></li>
+                    <li><a href="#implementation" class="nav-link px-2 text-white">Implementation</a></li>
+                    <li><a href="#customization" class="nav-link px-2 text-white">Customization</a></li>
+                </ul>
+            </div>
+        </div>
+    </header><!-- End Header Section -->
+
+    <!-- Hero Section -->
+    <section>
+        <div class="hero">
+            <div class="hero-text">
+                <h1 class="display-4 fw-bold">Bootstrap’s Cards</h1>
+            </div>
+        </div>
+    </section><!-- End Hero Section -->
+
+    <main>
+        <!-- Description Section Part 1 -->
+        <section id="description" class="py-3">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Column 1 -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 18rem;">
+                            <div class="card-header">
+                                <strong> Component Description </strong>
+                            </div>
+                            <div class="card-body text-justify">
+                                <h5 class="card-title">Bootstrap Cards</h5>
+                                <p class="card-text">The <strong>Bootstrap Cards Component </strong> is a versatile tool
+                                    that allows you to create visually appealing and customizable content boxes. These cards are
+                                    containers for information that can <strong>include text, images, links, buttons, and other
+                                    HTML elements.</strong> The default design of the cards is clean, modern, and fully
+                                    responsive, automatically adapting to different screen sizes.</p>
+                                <a href="https://getbootstrap.com/docs/5.3/components/card/" class="btn custom-button" target="_blank" rel="noopener noreferrer">Bootstrap.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-6">
+                        <div class="card" style="height: 18rem;">
+                            <!-- Card Title -->
+                            <div class="card-header">
+                                <strong> Common uses in a Web Application </strong>
+                            </div>
+                            <!-- List of items -->
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Content Presentation</li>
+                                <li class="list-group-item">Image Galleries</li>
+                                <li class="list-group-item">Product or Service Listings</li>
+                                <li class="list-group-item">Profile or User Components</li>
+                                <li class="list-group-item">Modular Design</li>
+                                <li class="list-group-item">User Interactions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Description Section Part 1 -->
+
+        <!-- Description Section Part 2 -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <!-- Column 1 -->
+                    <div class="col-md-12">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <div class="card-body text-justify">
+                                        <h5 class="card-title">Frequently used example:</h5>
+                                        <p class="card-text">Cards are very common on websites because they help organize news 
+                                            in a very dynamic way, for example this is the <strong>BBC news page</strong>. 
+                                            They can also have a title, an image, a description of the
+                                            news and a publication date. Cards also help organize news sections more
+                                            easily in mobile versions.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <img src="/img/bbc.png" class="img-fluid rounded-start" alt="img bbc news">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Description Section Part 2 -->
+
+        <!-- Description Section Part 3 -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <!-- Column 1 -->
+                    <div class="col-md-12">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <div class="card-body text-justify">
+                                        <h5 class="card-title">Frequently used example:</h5>
+                                        <p class="card-text"><strong> New York Times </strong> has been using cards on all of its pages
+                                            for a long time. Cards help organize this type of media very efficiently,
+                                            especially on media such as cell phones and tablets.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <img src="/img/nytimes.png" class="img-fluid rounded-start" alt="img nytimes news">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Description Section Part 3 -->
+
+        <!-- Code Section -->
+        <section id="code" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>Bootstrap Card with Code</strong>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Example of a Bootstrap card with its code and explanation and how it looks represented:
+                                </p>
+                                <!-- New row with two columns -->
+                                <div class="row">
+
+                                    <!-- Code Example 1 -->
+                                    <div class="col-md-8">
+                                        <pre class="bg-light p-3 rounded">
+<code>
+&lt;pre class="bg-light p-3 rounded"&gt;
+    &lt;div class="card"&gt;
+        &lt;img src="/img/designers.jpg" class="card-img-top" alt="designers"&gt;
+        &lt;div class="card-body"&gt;
+
+            &lt;h5 class="card-title"&gt;Card title&lt;/h5&gt;
+
+            &lt;p class="card-text"&gt;Some quick example text to build on the card 
+            title and make up the bulk of the card's content.&lt;/p&gt;
+
+            &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code>
+                                        </pre>
+                                    </div><!-- End Code Example 1 -->
+
+                                    <!-- Card Example 2 -->
+                                    <div class="col-md-4 d-flex justify-content-center align-items-center">
+                                        <div class="card">
+                                            <img src="/img/designers.jpg" class="card-img-top" alt="designers">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Card Title</h5>
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make up the bulk of the card's content.</p>
+                                                <a href="#" class="btn custom-button">Go somewhere</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- End Card Example 2 -->
+
+                                <!-- Explanation List -->
+                                <div>
+                                    <h6><strong>Explanation of Classes Used:</strong></h6>
+                                    <ul>
+                                        <li><code>card</code>: Creates a flexible and extensible content container with multiple variants and options.</li>
+                                        <li><code>card-img-top</code>: Adds an image to the top of the card, keeping it responsive.</li>
+                                        <li><code>card-body</code>: Defines the main content area of the card.</li>
+                                        <li><code>card-title</code>: Styles the title within the card body.</li>
+                                        <li><code>card-text</code>: Styles regular text inside the card body.</li>
+                                        <li><code>btn</code>: Applies default button styles to an anchor element.</li>
+                                        <li><code>btn-primary</code>: Adds a primary color to the button (based on the Bootstrap theme).</li>
+                                        <li><code>bg-light</code>: Provides a light gray background for better visibility.</li>
+                                        <li><code>p-3</code>: Adds padding (1rem) around the content for spacing.</li>
+                                        <li><code>rounded</code>: Gives rounded corners to the container.</li>
+                                    </ul>
+                                </div><!-- End Explanation List -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Code Section -->
+
+        <!-- Implementation Section -->
+        <section id="implementation" class="py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong>Implement Bootstrap Cards</strong>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Explanation of how to implement a Bootstrap card:
+                                </p>
+                                <!-- Explanation List -->
+                                <div>
+                                    <ul>
+                                        <!-- Link to Bootstrap CSS and Link to Bootstrap JavaScript -->
+                                        <li><strong>Prepare the Environment: </strong>Before using Bootstrap components,
+                                            make sure that the Bootstrap CSS and JavaScript files are properly linked in
+                                            your project. <br><br>
+                                            <p class="card-text">
+                                                <strong>Link to Bootstrap CSS:</strong>
+                                                <code>
+                                                    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"&gt;
+                                                </code>
+                                            </p>
+                                            <p class="card-text">
+                                                <strong>Link to Bootstrap JavaScript:</strong>
+                                                <code>
+                                                    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" script&gt;
+                                                </code>
+                                            </p><br>
+                                        </li><!-- End Link to Bootstrap CSS and Link to Bootstrap JavaScript -->
+
+                                        <!-- Structure -->
+                                        <li><strong>Structure: </strong>Create a basic card with the main elements:
+                                            image, header, text and button.
+                                            <pre>
+                                                <code>
+&lt;div class="card" style="width: 18rem;"&gt;
+    &lt;img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Example Image"&gt;
+    &lt;div class="card-body"&gt;
+        &lt;h5 class="card-title"&gt;Card Title&lt;/h5&gt;
+        &lt;p class="card-text"&gt;This is a brief description of the card content.&lt;/p&gt;
+        &lt;a href="#" class="btn btn-primary"&gt;Go somewhere&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                                                </code>
+                                            </pre>
+                                        </li><!-- Structure -->
+
+                                        <!-- Custom CSS -->
+                                        <li><strong>Component Customization: </strong>Use CSS to customize the
+                                            appearance. For example:
+                                            <pre>
+                                                <code>
+.card {
+    border: 2px solid #8d29eb; /* Change the border */
+    border-radius: 10px;       /* Rounded edges */
+}
+
+.card-title {
+    color: #9d29eb;            /* Change title color */
+}
+                                                </code>
+                                                </pre>
+                                        </li><!-- End Custom CSS -->
+                                    </ul>
+                                </div><!-- End Explanation List -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- End Implementation Section -->
+
+        <!-- Customization Section -->
+        <section id="customization" class="py-3">
+            <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <strong>Personalization Examples</strong>
+                    </div>
+                    <div class="card-body">
+                        <!-- Row 1 -->
+                        <div class="row">
+                            <div class="col-md-3">
+                                <!-- card -->
+                                <div class="card" style="height: 100%;">
+                                    <img src="/img/abstract-flow.jpg" class="card-img-top" alt="abstract-flow">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <a href="#" class="btn custom-button">Go somewhere</a>
+                                    </div>
+                                </div><!-- End card -->
+                            </div>
+
+                            <div class="col-md-3">
+                                <!-- card -->
+                                <div class="card" style="height: 100%;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                                    <img src="/img/abstract-flow.jpg" class="card-img-bottom" alt="abstract-flow">
+                                </div><!-- End card -->
+                            </div>
+
+                            <div class="col-md-6">
+                                <!-- card -->
+                                <div class="card text-bg-dark" style="height: 100%;">
+                                    <img src="/img/abstract-flow.jpg" class="card-img" alt="abstract-flow">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text"><small>Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div><!-- End card -->
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <div class="card text-bg-primary mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Primary card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+
+                            <div class="col-md-3">
+                                <div class="card text-bg-success mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Success card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+
+                            <div class="col-md-3">
+                                <div class="card text-bg-warning mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Warning card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+
+                            <div class="col-md-3">
+                                <div class="card text-bg-info mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Info card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+                        </div>
+
+                        <!-- Row 3 -->
+                        <div class="row mt-3">
+                            <div class="col-md-3">
+                                <div class="card border-primary mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body text-primary">
+                                        <h5 class="card-title">Primary card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+
+                            <div class="col-md-3">
+                                <div class="card border-success mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body text-success">
+                                        <h5 class="card-title">Success card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+
+                            <div class="col-md-3">
+                                <div class="card border-warning mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Warning card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+
+                            <div class="col-md-3">
+                                <div class="card border-info mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Info card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div><!-- End card -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- End Customization Section -->
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="custom-footer bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Bootstrap’s Cards. All rights reserved.</p>
+            <p>
+                Some examples and code snippets used in this page are sourced from the official
+                <a href="https://getbootstrap.com/docs/5.3/components/card/" class="text-decoration-none text-info"
+                    target="_blank" rel="noopener noreferrer">
+                    Bootstrap Cards Documentation.
+                </a>
+            </p>
+            <p>Follow us on
+                <a href="#" class="text-info text-decoration-none">Twitter</a>,
+                <a href="#" class="text-info text-decoration-none">Facebook</a>, and
+                <a href="#" class="text-info text-decoration-none">LinkedIn</a>.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+/* This prevents sections from being under the menu */
+body {
+    padding-top: 70px;
+}
+
+#description, 
+#code,
+#implementation,
+#customization {
+    padding-top: 100px !important;
+}
+
+/* Custom Header */
+.custom-header {
+    background-color: #7432f9;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    background: url('../img/hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 650px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Content */
+.text-justify {
+    text-align: justify;
+}
+
+/* Custom Button */
+.custom-button {
+    background-color: #7432f9; 
+    color: white;             
+    border: none;             
+}
+
+.custom-button:hover {
+    background-color: #4f1595; 
+    color: white; 
+}
+
+/* Custom Footer */
+.custom-footer {
+    background-color: #7432f9 !important; 
+}
