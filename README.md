@@ -9,7 +9,7 @@ This example includes HTML and CSS customizations to adjust the card's appearanc
 </p>
 
 ### Links
-- **GitHub Repository**: [asd](asd)
-- **Live Website**: [asd](asd)
+- **GitHub Repository**: [https://github.com/Kamiokandeep/CardsBootstrap](https://github.com/Kamiokandeep/CardsBootstrap)
+- **Live Website**: [https://kamiokandeep.github.io/CardsBootstrap/](https://kamiokandeep.github.io/CardsBootstrap/)
 
 <p align="center"><a><img src="img/screencapture.png" alt="Screencapture" width="2000px"></a></p>
